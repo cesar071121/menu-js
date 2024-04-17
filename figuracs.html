@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="figuracs.css">
+  <title></title>
+</head>
+
+<body>
+  <center>
+<h1>FIGURAS</h1>
+<table>
+  <tr>
+    <td>ancho</td>
+    <td><input type="range" min="10" max="300" value="10" id="ancho" /> </td>
+    <td><div id="vancho">10</div></td>
+  </tr>
+   <tr>
+    <td>ALTO</td>
+    <td><input type="range" min="10" max="300" value="10" id="alto" /> </td>
+    <td><div id="valto">10</div></td>
+  </tr>
+   <tr>
+    <td>COLOR</td>
+    <td><input type="color" id="color"/> </td>
+
+  </tr>
+   <tr>
+    <td>ANCHO BORDE</td>
+    <td><input type="range" min="1" max="10" value="1" id="anchob" /> </td>
+        <td><div id="vanchob">1</div></td>
+  </tr>
+      <td>COLOR BORDE</td>
+    <td><input type="color" id="colorb"/> </td>
+
+  </tr>
+  <td>TIPO DE BORDE</td>
+     <td><select id="tipob">
+       <option value="solid">solid</option>
+       <option value="dashed">dashed</option>
+       <option value="double">double</option>
+     </select> 
+     </td>
+    
+     <tr>
+        <td>RADIUS</td>
+        <td><input type="range" min="1" max="100" value="10" id="radio" /> </td>
+    <td><div id="radius">1</div></td>
+     </tr>
+
+     <tr>
+        <td>ROTATE</td>
+        <td><input type="range" min="0" max="360" value="10" id="rotat" /> </td>
+    <td><div id="rotate">0</div></td>
+     </tr>
+
+     <tr>
+        <td>TRASLATE X</td>
+        <td><input type="range" min="0" max="100" value="0" id="transx" /> </td>
+    <td><div id="vtransx">0</div></td>
+     </tr>
+
+     <tr>
+        <td>TRASLATE y</td>
+        <td><input type="range" min="0" max="100" value="0" id="transy" /> </td>
+    <td><div id="vtransy">0</div></td>
+     </tr>
+     <tr>
+        <td>ESCALE</td>
+        <td><input type="range" min="0" max="3" value="0" id="escale" /> </td>
+    <td><div id="vescale">0</div></td>
+     </tr>
+     
+     <td>Color sombra</td>
+     <td><input type="color" name="" id="csombra" ></td>
+     <td><div id="sombra">
+     </div></td>
+     </tr>
+
+     <tr>
+       <td>Tamaño de sombra</td>
+       <td><input type="range" min="0" max="100" value="0" name="" id="vsombra" ></td>
+       <td><div id="som">
+       </div></td>
+       </tr>
+
+       <tr>
+         <td>Sombra X</td>
+         <td><input type="range" min="-100" max="100" value="0" name="" id="sx" ></td>
+         <td><div id="som2">
+         </div></td>
+         </tr>
+
+         <tr>
+           <td>Sombra Y</td>
+           <td><input type="range" min="-100" max="100" value="0" name="" id="sy" ></td>
+           <td><div id="som3">
+           </div></td>
+           </tr>
+
+</table>
+<br><br>
+<div id="caja"></div>
+</center>
+</body>
+
+<script src=app.js></script>
+</html>

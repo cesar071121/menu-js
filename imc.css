@@ -1,0 +1,34 @@
+*{
+    transition: 2s all ease-in-out
+  }
+  body{
+    background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(171,18,184,1) 90%);
+    color: solid black;
+  }
+  table{
+    color: white;
+    border: solid black;
+  }
+  td{
+    border: solid black;
+  }
+  #i{
+    background: blue;
+  }
+  #f{
+    background: green;
+  }
+  #s{
+    background: yellow;
+  }
+  #o1{
+    background: orange;
+  }
+  #o2{
+    background: red;
+  }
+  #o3{
+    background: purple;
+  }
+  

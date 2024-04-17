@@ -1,0 +1,14 @@
+body{
+    height: 100vh;
+    background: rgb(6,47,254);
+  background: linear-gradient(180deg, rgba(6,47,254,1) 7%, rgba(0,0,0,1) 84%);
+    color: white;
+  }
+  #dia{
+    background: black;
+  }
+  #mes{
+    transition: 2s all ease-in-out;
+    background: black;
+    color: white;
+  }

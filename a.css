@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    text-align: center;
+    align-content: center;
+    
+  text-shadow: 3px 3px 3px black;
+  
+  }
+  
+  input{
+    border-radius: 10px 10px 10px 10px;
+    color: black;
+    width: 250px;
+    height: 40px;
+    transition: 2s all ease;
+  }
+  
+  input:focus{
+    transition: 2s all ease;
+    box-shadow: 5px 5px 5px black;
+  }
+  
+  button{
+    border-radius: 10px 10px 10px 10px;
+    width: 30px;
+    height: 30px;
+    background: aquamarine;
+    color: black;
+    transition: 2s all ease;
+  }
+  
+  button:hover{
+    transition: 2s all ease;
+    box-shadow: 5px 5px 5px black;
+  }
+  
+  #cal{
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    padding: 2px;
+    margin: auto;
+    border-radius: 20px 20px 20px 20px;
+    background: rgb(99,231,108);
+  background: linear-gradient(0deg, rgba(99,231,108,1) 0%, rgba(18,190,251,0.2164875484440365) 100%);
+  }
+  
+  #res{
+    width: 200px;
+    height: 100px;
+    
+    padding: 2px;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px solid black;
+    border-radius: 20px 20px 20px 20px;
+}

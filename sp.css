@@ -1,0 +1,40 @@
+*{
+    padding: 1;
+    margin:  25;
+    border-box: 1 ;
+  }
+  body {
+      font-size: 30px;
+      text-align: center;
+      background: white;
+      color: navy;
+      text-shadow: 5px 5px 5px gray;
+   
+  }
+  #padre{
+    border: 5px solid black;
+    width: 300px;
+    height: 400px; 
+    right: 70px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    background: cyan;
+  }
+  #value{
+    border: 3px solid black;
+    width: 20px;
+    height: 20px; 
+    right: 20px;
+    margin: auto;
+    padding: 10px;
+    background: grey;
+  }
+  #tama{
+    width: 10px;
+    height: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    background: red;
+  }
+  

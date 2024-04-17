@@ -1,0 +1,36 @@
+
+body {
+    background-color: black;
+    color: red;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input, button {
+    padding: 5px;
+}
+
+button {
+    background-color: red;
+    color: black;
+    border: none;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+div{
+    background: solid white;
+    color: red;
+}
