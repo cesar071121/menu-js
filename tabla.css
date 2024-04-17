@@ -1,0 +1,27 @@
+body{
+    background: black;
+    color: white;
+  }
+      table, th, td {
+          border: 1px solid white;
+          border-collapse: collapse;
+          box-shadow: 5px 5px 5px white;
+      }
+      input {
+          margin: 10px;
+      }
+  #filasSlider{
+    background: grey;
+    border: 4px solid white;
+  }
+  #columnasSlider{
+    background: grey;
+    border: 4px solid white;
+  }
+  #filasOutput{
+    font-size: 50px
+  }
+  #columnasOutput{
+    font-size: 50px
+  }
+  

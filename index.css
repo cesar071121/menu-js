@@ -1,0 +1,44 @@
+div{
+    font-family:mifirstfont;
+}
+*{
+margin:0;
+padding: 0;
+box-sizing: 0;
+transition: 1s all ease;
+}
+h1{
+    font-family: Madimi;
+}
+body{
+    text-align: center;
+    color: orangered;
+    height: 100vh;
+    background: rgb(96,34,195);
+background: linear-gradient(0deg, rgba(96,34,195,1) 47%, rgba(177,92,189,1) 69%, rgba(66,150,222,1) 86%, rgba(253,45,59,1) 100%);
+}
+h1{
+    font-size:60px ;
+    text-shadow: 0 0 10px yellow;
+    color: black;
+
+}
+a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    margin:10px auto;
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    border: 10px solid white;
+}
+a:hover{
+    box-shadow: 0 0 5px white;
+    border: 1px solid black;
+    background: white;
+    color: rgb(40, 63, 63);
+    transform: scale(1,2);
+}
