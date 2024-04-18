@@ -1,0 +1,28 @@
+body{
+    background: black;
+    color: white;
+}
+#btnVer{
+    background: grey;
+    box-shadow: 5px 5px 5px white;
+    margin: 20px;
+color: black;
+}
+#btnVer2{
+    background: red;
+    box-shadow: 5px 5px 5px white;
+    margin: 20px;
+    color: black;
+}
+#btnVer3{
+    background: yellow;
+    box-shadow: 5px 5px 5px white;
+    margin: 20px;
+    color: black;
+}
+#btnVer4{
+    background: blue;
+    box-shadow: 5px 5px 5px white;
+    margin: 20px;
+    color: black;
+}

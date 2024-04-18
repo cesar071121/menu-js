@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    background: rgb(9,9,121);
+background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(5,89,174,1) 25%, rgba(0,149,180,1) 50%, rgba(1,97,136,1) 75%, rgba(2,0,36,1) 100%);
+color: white;
+}
+#x1{
+    
+    text-align: center;
+}
+#x2{
+        text-align: center;
+}
+#an{
+    background: black;
+}
+#bn{
+    background: black;
+}
+#cn{
+    background: black;
+}
+#spinner{
+    z-index: 3;
+}

@@ -24,4 +24,14 @@ body{
   #columnasOutput{
     font-size: 50px
   }
-  
+  #color1{
+    width: 200px;
+    text-align: center;
+  }
+  span{
+   font-size: 30px; 
+  }
+  #color2{
+    width: 200px;
+    text-align: center;
+  }
