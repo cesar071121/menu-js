@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="promedio.css">
+    <title>Document</title>
+</head>
+<body class="text-center m-auto w-75">
+    <h1>PROMEDIO CALIFICACIONES</h1>
+
+<table class="text-center m-auto w-75">
+    <tr>
+        <td><h1>INGLES</h1></td>
+        <td><input type="range" id="ingles" min="5" max="10" value="5" class="form-control"></td>
+        <td id="vingles">5</td>
+    </tr>
+    <tr>
+        <td><h1>CALCULO</h1></td>
+        <td><input type="range" id="calculo" min="5" max="10" value="5" class="form-control"></td>
+        <td id="vcalculo">5</td>
+    </tr>
+    <tr>
+        <td><h1>FISICA</h1></td>
+        <td><input type="range" id="fisica" min="5" max="10" value="5" class="form-control"></td>
+        <td id="vfisica">5</td>
+    </tr>
+    <tr>
+        <td><h1>ECOLOGIA</h1></td>
+        <td><input type="range" id="ecologia" min="5" max="10" value="5" class="form-control"></td>
+        <td id="vecologia">5</td>
+    </tr>
+    <tr>
+        <td><h1>MODULOS</h1></td>
+        <td><input type="range" id="modulo" min="5" max="10" value="5" class="form-control"></td>
+        <td id="vmodulos">5</td>
+    </tr>
+<tr>
+    <td><h1>PROMEDIO</h1></td>
+    <section>
+        
+    <td id="vresul" colspan="4"><h1>5</h1></td>
+</tr>
+</table>
+
+<div class="progress-circle  text-center m-auto">
+  <svg viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="40"></circle>
+    <circle id="progressBarBackground" cx="50" cy="50" r="40"></circle>
+    <circle id="progressBar" cx="50" cy="50" r="40" class="progress-bar"></circle>
+    <text x="50" y="50" class="progress-text" id="a">5</text>
+
+  </svg>
+</div>
+<h1 x="50" y="50"  id="r3">REPROBADO</h1>
+
+</body>
+<script src="promedio.js"></script>
+</html>

@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+}
+#ingles{
+    background: rgb(134, 86, 154);
+    border: 5px solid white;
+}
+#calculo{
+    background: rgb(134, 86, 154);
+    border: 5px solid white;
+}
+#ecologia{
+    background: rgb(134, 86, 154);
+    border: 5px solid white;
+}
+#modulo{
+    background: rgb(134, 86, 154);
+    border: 5px solid white;
+}
+#fisica{
+    background: rgb(134, 86, 154);
+    border: 5px solid white;
+}
+
+
+#vingles{
+    font-size: 50px;
+}
+#vcalculo{
+    font-size: 50px;
+
+}
+#vecologia{
+    font-size: 50px;
+
+}
+#vmodulos{
+    font-size: 50px;
+
+}
+#vfisica{
+    font-size: 50px;
+
+}
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.progress-circle {
+width: 400px;
+height: 400px;
+position: relative;
+}
+.progress-circle svg {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+}
+.progress-circle circle {
+fill: none;
+stroke-width: 10;
+stroke: #e0e0e0; /* Color de fondo de la barra */
+}
+.progress-circle .progress-bar {
+fill: none;
+stroke-width: 10;
+stroke-linecap: round;
+transition: stroke-dashoffset 0.3s;
+}
+.progress-circle .progress-text {
+fill: #333; /* Color del texto */
+font-size: 20px;
+text-anchor: middle;
+dominant-baseline: middle;
+}
+
+h2{
+font-size: 50px;
+text-shadow: 2px 3px 2px green;
+}
+#a{
+color: white;
+}

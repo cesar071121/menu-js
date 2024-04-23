@@ -23,3 +23,8 @@ color: white;
 #spinner{
     z-index: 3;
 }
+#ecu{
+    font-size: 60px;
+    color: black;
+background: white;
+}
